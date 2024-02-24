@@ -20,7 +20,7 @@ const NoteForm = ({ addNote }) => {
   return (<div className='form'>
     <form onSubmit={handleSubmit}>
       <input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)}/>
-      <textarea placeholder="Body" value={body} onChange={(e) => setBody(e.target.value)} ></textarea>
+      <textarea placeholder="Write your daily note" value={body} onChange={(e) => setBody(e.target.value)} ></textarea>
       <input type="text" placeholder="Reminder" value={reminder} onChange={(e) => setReminder(e.target.value)}/>
 
       <button type="submit">Add Note</button>
