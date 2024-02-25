@@ -83,6 +83,7 @@ body {
     cursor: pointer;
     border-radius: 10px;
     margin: auto;
+   
 
   }
   
@@ -138,6 +139,8 @@ body {
     justify-content: center;
     padding: 20px;
     box-shadow: 0 0 5px rgb(0, 0,0,0.1);
+  
+    
     
     
 max-height: 200px;
@@ -163,6 +166,7 @@ max-height: 200px;
     cursor: pointer;
     border-radius: 10px;
     margin: auto;
+    position: relative;
     
   }
   

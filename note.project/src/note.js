@@ -23,7 +23,7 @@ const NoteForm = ({ addNote }) => {
       <textarea placeholder="Write your daily note" value={body} onChange={(e) => setBody(e.target.value)} ></textarea>
       <input type="text" placeholder="Reminder" value={reminder} onChange={(e) => setReminder(e.target.value)}/>
 
-      <button type="submit">Add Note</button>
+      <button className='sub' type="submit">Add Note</button>
     </form></div>
   );
 };

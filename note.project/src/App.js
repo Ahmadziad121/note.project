@@ -1,13 +1,14 @@
 import React, { useState,useEffect } from 'react';
 import NoteForm from './note';
 import NoteList from './notes';
+
 import './App.css';
 import randomColor from 'randomcolor';
 
 function App() {
   const [notes, setNotes] = useState([]);
   
-  useEffect(() => {
+  useState(() => {
     const savedNotes = JSON.parse(localStorage.getItem('notes'));
     if (savedNotes) {
       setNotes(savedNotes);
@@ -30,7 +31,7 @@ function App() {
     newNotes.splice(index, 1);
     setNotes(newNotes);
   };
-  
+ 
   
 
   return (
